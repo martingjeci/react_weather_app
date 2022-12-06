@@ -1,0 +1,84 @@
+export const Details = ({weather :}) => {
+    return (
+        <div className="details" >
+            
+            <div className="weekdays">
+
+                <div className="inline_div">
+
+                    <div className="days">
+                        <div>
+                            <h1>Monday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherSunny size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+
+                    <div className="days">
+                        <div>
+                            <h1>Tuesday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherPartlySunny size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+
+                    <div className="days">
+                        <div>
+                            <h1>Wednsday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherSnow size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+
+                    <div className="days">
+                        <div>
+                            <h1>Thirsday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherStormy size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+
+                    <div className="days">
+                        <div>
+                            <h1>Friday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherShower size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+
+                    <div className="days">
+                        <div>
+                            <h1>Saturday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherNight size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+
+                    <div className="days">
+                        <div>
+                            <h1>Sunday</h1>
+                            <h3 className="date">March 1st, 1:00 pm</h3>
+                            <TiWeatherPartlySunny size={70}/>
+                            <h1>35<sup>o</sup>C</h1>
+                            <h4>clear sky</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    );
+};
